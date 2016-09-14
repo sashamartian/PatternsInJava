@@ -44,5 +44,17 @@ public class Usage {
         /* первое получение экземпляра SingletonEnum */
         SingletonEnum enumTwo = SingletonEnum.INSTANCE;
         System.out.println(enumTwo);
+
+        /* пример
+         * Теперь для работы с конфигурацией можно использовать конструкцию вида: */
+        String propKey = "key";
+        String propValue = Configuration.getInstance().getProperty(propKey);
+        System.out.println(propValue);
+
+        /* Если имена свойств в "props.txt" меняться не будут, можно описать их в классе таким образом:
+         * public static final String PROP_KEY = "propKey";
+         * а значения получать так:
+         * String propValue = Configuration.getInstance().getProperty(Configuration.PROP_KEY); */
+
     }
 }
