@@ -36,5 +36,13 @@ public class Usage {
         /* второе получение экземпляра SingletonHolder */
         SingletonHolder holderTwo = SingletonHolder.getInstance();
         System.out.println(holderTwo);
+
+        /* первое получение экземпляра SingletonEnum */
+        SingletonEnum enumOne = SingletonEnum.INSTANCE;
+        System.out.println(enumOne);
+
+        /* первое получение экземпляра SingletonEnum */
+        SingletonEnum enumTwo = SingletonEnum.INSTANCE;
+        System.out.println(enumTwo);
     }
 }
