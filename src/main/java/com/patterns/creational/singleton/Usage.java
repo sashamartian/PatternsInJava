@@ -22,11 +22,19 @@ public class Usage {
         System.out.println(onLoadTwo);
 
         /* первое получение экземпляра SingletonDouble */
-        SingletonDouble onDoubleOne = SingletonDouble.getInstance();
-        System.out.println(onDoubleOne);
+        SingletonDouble doubleOne = SingletonDouble.getInstance();
+        System.out.println(doubleOne);
 
         /* второе получение экземпляра SingletonOnLoad */
-        SingletonDouble onDoubleTwo = SingletonDouble.getInstance();
-        System.out.println(onDoubleTwo);
+        SingletonDouble doubleTwo = SingletonDouble.getInstance();
+        System.out.println(doubleTwo);
+
+        /* первое получение экземпляра SingletonHolder */
+        SingletonHolder holderOne = SingletonHolder.getInstance();
+        System.out.println(holderOne);
+
+        /* второе получение экземпляра SingletonHolder */
+        SingletonHolder holderTwo = SingletonHolder.getInstance();
+        System.out.println(holderTwo);
     }
 }
