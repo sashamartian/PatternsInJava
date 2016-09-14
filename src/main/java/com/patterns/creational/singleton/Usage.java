@@ -20,5 +20,13 @@ public class Usage {
         /* второе получение экземпляра SingletonOnLoad */
         SingletonOnLoad onLoadTwo = SingletonOnLoad.getInstance();
         System.out.println(onLoadTwo);
+
+        /* первое получение экземпляра SingletonDouble */
+        SingletonDouble onDoubleOne = SingletonDouble.getInstance();
+        System.out.println(onDoubleOne);
+
+        /* второе получение экземпляра SingletonOnLoad */
+        SingletonDouble onDoubleTwo = SingletonDouble.getInstance();
+        System.out.println(onDoubleTwo);
     }
 }
