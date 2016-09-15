@@ -3,7 +3,7 @@ package main.java.com.patterns.creational.singleton;
 /**
  * Использование паттерна Singleton
  */
-public class Usage {
+public class Main {
     public static void main(String[] args) {
         /* первое получение экземпляра SingletonSimple */
         SingletonSimple simpleOne = SingletonSimple.getInstance();
