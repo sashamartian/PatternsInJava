@@ -1,8 +1,5 @@
 package main.java.com.patterns.creational.factory.bonus01;
 
-import com.javarush.test.level16.lesson13.bonus01.common.ImageReader;
-import com.javarush.test.level16.lesson13.bonus01.common.ImageTypes;
-
 /* Factory method pattern
 1. Внимательно посмотри, какие классы у тебя есть.
 2. В отдельных файлах в пакете common создай классы JpgReader, PngReader, BmpReader, которые реализуют интерфейс ImageReader.
@@ -13,6 +10,8 @@ import com.javarush.test.level16.lesson13.bonus01.common.ImageTypes;
 4.1. для каждого значения из ImageTypes возвращать соответствующий Reader, например, для ImageTypes.JPG - JpgReader;
 4.2. если передан неправильный параметр, то выбросить исключение IllegalArgumentException("Неизвестный тип картинки").
 */
+
+import main.java.com.patterns.creational.factory.bonus01.common.*;
 
 public class Solution {
     public static void main(String[] args) {

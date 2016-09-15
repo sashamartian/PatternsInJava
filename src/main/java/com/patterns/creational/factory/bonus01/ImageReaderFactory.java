@@ -1,6 +1,7 @@
 package main.java.com.patterns.creational.factory.bonus01;
 
-import com.javarush.test.level16.lesson13.bonus01.common.*;
+
+import main.java.com.patterns.creational.factory.bonus01.common.*;
 
 /**
  * Created by sbt-galushkin-aa on 13.06.2016.
