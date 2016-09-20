@@ -1,4 +1,4 @@
-package main.java.com.patterns.structural.adapter.byInterface;
+package main.java.com.patterns.structural.adapter.example01;
 
 /**
  *

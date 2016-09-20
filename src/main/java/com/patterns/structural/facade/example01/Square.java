@@ -1,4 +1,4 @@
-package main.java.com.patterns.structural.facade.simple;
+package main.java.com.patterns.structural.facade.example01;
 
 public class Square implements Shape {
     @Override
