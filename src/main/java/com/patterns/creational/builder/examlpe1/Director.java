@@ -1,4 +1,4 @@
-package main.java.com.patterns.creational.builder;
+package main.java.com.patterns.creational.builder.examlpe1;
 
 /**
  * Зачем вообще создавать этот класс, ведь можно сразу вызывать методы Builder'a из клиента? Класс Director делает

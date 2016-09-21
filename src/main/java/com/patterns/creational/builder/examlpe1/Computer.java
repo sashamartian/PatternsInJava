@@ -1,4 +1,4 @@
-package main.java.com.patterns.creational.builder;
+package main.java.com.patterns.creational.builder.examlpe1;
 
 /**
  * Класс, который в итоге нам нужен.
