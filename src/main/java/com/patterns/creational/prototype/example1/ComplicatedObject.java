@@ -1,4 +1,4 @@
-package main.java.com.patterns.creational.prototype;
+package main.java.com.patterns.creational.prototype.example1;
 
 /**
  * Объект, реализующий интерфейс

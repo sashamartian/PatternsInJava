@@ -1,4 +1,4 @@
-package main.java.com.patterns.creational.prototype;
+package main.java.com.patterns.creational.prototype.example1;
 
 /**
  * Интерфейс для примера, в яве уже есть Cloneable

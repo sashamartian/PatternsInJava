@@ -1,4 +1,4 @@
-package main.java.com.patterns.creational.prototype;
+package main.java.com.patterns.creational.prototype.example1;
 
 /**
  * Шаблон Prototype позволяет создавать новые объекты на основе некоторого объекта-прототипа при этом совсем не
